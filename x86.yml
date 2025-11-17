@@ -121,11 +121,11 @@ storage:
 
     - path: /etc/modprobe.d/framebuffer-blacklist.conf
       contents:
-        source: https://raw.githubusercontent.com/secureblue/secureblue/refs/heads/live/files/system/usr/lib/modprobe.d/secureblue-framebuffer.conf
+        source: https://raw.githubusercontent.com/secureblue/secureblue/live/files/system/usr/lib/modprobe.d/secureblue-framebuffer.conf
 
     - path: /etc/modprobe.d/server-blacklist.conf
       contents:
-        source: https://raw.githubusercontent.com/secureblue/secureblue/refs/heads/live/files/system/usr/lib/modprobe.d/secureblue.conf
+        source: https://raw.githubusercontent.com/secureblue/secureblue/live/files/system/usr/lib/modprobe.d/secureblue.conf
 
     - path: /etc/security/limits.d/30-disable-coredump.conf
       contents:
