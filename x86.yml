@@ -183,9 +183,9 @@ storage:
       contents:
         source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/tuned/profile_mode
 
-    - path: /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:secureblue:hardened_malloc.repo
+    - path: /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:secureblue:packages.repo
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/yum.repos.d/_copr:copr.fedorainfracloud.org:secureblue:hardened_malloc.repo
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/yum.repos.d/_copr%3Acopr.fedorainfracloud.org%3Asecureblue%3Apackages.repo
     - path: /etc/yum.repos.d/docker-ce.repo
       contents:
         source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/refs/heads/main/etc/yum.repos.d/docker-ce.repo
