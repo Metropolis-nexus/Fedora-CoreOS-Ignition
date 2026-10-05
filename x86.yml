@@ -151,10 +151,10 @@ storage:
 
     - path: /etc/systemd/system/docker-auto-update@.service
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/refs/heads/main/etc/systemd/system/docker-auto-update%40.service
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/docker-auto-update%40.service
     - path: /etc/systemd/system/docker-auto-update@.timer
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/refs/heads/main/etc/systemd/system/docker-auto-update%40.timer
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/docker-auto-update%40.timer
 
     - path: /etc/systemd/system/gvisor-auto-update.service
       contents:
@@ -188,7 +188,7 @@ storage:
         source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/yum.repos.d/_copr%3Acopr.fedorainfracloud.org%3Asecureblue%3Apackages.repo
     - path: /etc/yum.repos.d/docker-ce.repo
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/refs/heads/main/etc/yum.repos.d/docker-ce.repo
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/yum.repos.d/docker-ce.repo
 
     - path: /etc/zincati/config.d/51-rollout-wariness.toml
       contents:
