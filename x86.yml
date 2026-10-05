@@ -96,28 +96,28 @@ storage:
   files:
     - path: /etc/chrony.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/chrony.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/chrony.conf
       overwrite: true
     - path: /etc/sysconfig/chronyd
       overwrite: true
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/sysconfig/chronyd
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/sysconfig/chronyd
 
     - path: /etc/containers/containers.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/containers/containers.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/containers/containers.conf
     - path: /etc/docker/daemon.json
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/docker/daemon.json
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/docker/daemon.json
 
     - path: /etc/issue
       overwrite: true
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/issue
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/issue
     - path: /etc/issue.net
       overwrite: true
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/issue
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/issue
 
     - path: /etc/modprobe.d/framebuffer-blacklist.conf
       contents:
@@ -129,25 +129,25 @@ storage:
 
     - path: /etc/security/limits.d/30-disable-coredump.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/security/limits.d/30-disable-coredump.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/security/limits.d/30-disable-coredump.conf
 
     - path: /etc/ssh/sshd_config.d/10-custom.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/ssh/sshd_config.d/10-custom.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/ssh/sshd_config.d/10-custom.conf
     - path: /etc/ssh/ssh_config.d/10-custom.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/ssh/ssh_config.d/10-custom.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/ssh/ssh_config.d/10-custom.conf
     - path: /etc/systemd/system/sshd.service.d/override.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/system/sshd.service.d/override.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/sshd.service.d/override.conf
 
     - path: /etc/sysctl.d/99-server.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/sysctl.d/99-server.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/sysctl.d/99-server.conf
 
     - path: /etc/systemd/coredump.conf.d
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/coredump.conf.d/disable.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/coredump.conf.d/disable.conf
 
     - path: /etc/systemd/system/docker-auto-update@.service
       contents:
@@ -158,10 +158,10 @@ storage:
 
     - path: /etc/systemd/system/gvisor-auto-update.service
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/system/gvisor-auto-update.service
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/gvisor-auto-update.service
     - path: /etc/systemd/system/gvisor-auto-update.timer
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/system/gvisor-auto-update.timer
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/gvisor-auto-update.timer
 
     # Annoying AGPL3 license
     - path: /etc/systemd/system/NetworkManager.service.d/99-brace.conf
@@ -170,32 +170,32 @@ storage:
 
     - path: /etc/systemd/system/podman-auto-update.timer.d/override.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/system/podman-auto-update.timer.d/override.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/system/podman-auto-update.timer.d/override.conf
 
     - path: /etc/systemd/zram-generator.conf
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/systemd/zram-generator.conf
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/systemd/zram-generator.conf
 
     - path: /etc/tuned/active_profile
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/tuned/active_profile
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/tuned/active_profile
     - path: /etc/tuned/profile_mode
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/tuned/profile_mode
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/tuned/profile_mode
 
     - path: /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:secureblue:packages.repo
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/yum.repos.d/_copr%3Acopr.fedorainfracloud.org%3Asecureblue%3Apackages.repo
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/yum.repos.d/_copr%3Acopr.fedorainfracloud.org%3Asecureblue%3Apackages.repo
     - path: /etc/yum.repos.d/docker-ce.repo
       contents:
         source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/refs/heads/main/etc/yum.repos.d/docker-ce.repo
 
     - path: /etc/zincati/config.d/51-rollout-wariness.toml
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/zincati/config.d/51-rollout-wariness.toml
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/zincati/config.d/51-rollout-wariness.toml
     - path: /etc/zincati/config.d/55-updates-strategy.toml
       contents:
-        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/main/etc/zincati/config.d/55-updates-strategy.toml
+        source: https://raw.githubusercontent.com/Metropolis-nexus/Common-Files/master/etc/zincati/config.d/55-updates-strategy.toml
 
   links:
     - path: /etc/systemd/system/multi-user.target.wants/tuned.service
