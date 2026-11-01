@@ -42,9 +42,7 @@ systemd:
         Type=oneshot
         RemainAfterExit=yes
         ExecStart=/usr/sbin/restorecon -R /var
-        ExecStart=/usr/sbin/setsebool -P container_use_cephfs off
         ExecStart=/usr/sbin/setsebool -P virt_use_nfs off
-        ExecStart=/usr/sbin/setsebool -P virt_use_samba off
         ExecStart=/usr/bin/systemctl start gvisor-auto-update.service
         ExecStart=/usr/bin/rpm-ostree override remove containerd docker-cli moby-engine runc systemd-resolved nfs-common-utils nfsv3-client-utils libnfsidmap nfsv4-client-utils sssd-nfs-idmap nfs-client-utils
         ExecStart=/usr/bin/rpm-ostree install docker-ce docker-compose-plugin hardened_malloc qemu-guest-agent tuned
